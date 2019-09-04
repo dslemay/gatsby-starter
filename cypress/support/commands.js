@@ -1,2 +1,2 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import 'cypress-testing-library/add-commands';
+import '@testing-library/cypress/add-commands';
