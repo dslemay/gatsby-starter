@@ -2,7 +2,7 @@ import React from 'react';
 import { render } from '@testing-library/react';
 import { StaticQuery } from 'gatsby';
 
-import mockPageQueries from '../../__mocks__/query-mocks';
+import mockPageQueries from '../../page-query-mocks';
 
 import IndexPage from '../index';
 
