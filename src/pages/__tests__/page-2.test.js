@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 
-import mockPageQueries from '../../__mocks__/query-mocks';
+import mockPageQueries from '../../page-query-mocks';
 
 import Page2 from '../page-2';
 
