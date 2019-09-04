@@ -58,6 +58,8 @@
     "@storybook/addon-viewport": "^5.0.5",
     "@storybook/addons": "^5.0.5",
     "@storybook/react": "^5.0.5",
+    "@testing-library/jest-dom": "^4.1.0",
+    "@testing-library/react": "^9.1.4",
     "babel-eslint": "^10.0.1",
     "babel-jest": "^24.4.0",
     "babel-loader": "^8.0.5",
@@ -72,11 +74,9 @@
     "identity-obj-proxy": "^3.0.0",
     "is-ci-cli": "^1.1.1",
     "jest": "^24.4.0",
-    "jest-dom": "^3.1.2",
     "jest-watch-typeahead": "^0.2.1",
     "lint-staged": "^9.2.5",
     "prettier": "^1.16.4",
-    "react-testing-library": "^6.0.0",
     "start-server-and-test": "^1.7.11"
   }
 }
