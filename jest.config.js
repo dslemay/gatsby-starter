@@ -9,8 +9,7 @@ module.exports = {
       '<rootDir>/__mocks__/file-mock.js',
   },
   setupFilesAfterEnv: [
-    'react-testing-library/cleanup-after-each',
-    'jest-dom/extend-expect',
+    '@testing-library/jest-dom/extend-expect',
     '<rootDir>/test-utils/setup-tests.js',
   ],
   testPathIgnorePatterns: ['node_modules', '.cache'],
