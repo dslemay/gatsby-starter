@@ -8,6 +8,7 @@ This starter contains base configuration and examples for a full tooling suite t
 - ESLint and Prettier configuration
 - Integration and End 2 End testing
 - Continuous integration
+- Renovate Dependency Management
 - Precommit hooks
 - Storybook
 - Gatsby base plugins
@@ -47,6 +48,17 @@ To use CirclCI, but eliminate CodeCov, delete the CodeCov badge from the README 
     name: Send coverage reports to Codecov
     command: npx codecov
 ```
+
+## Renovate Dependency Management
+
+[Renovate](https://renovatebot.com/) is a dependency management tool which can automatically open PRs for new dependency updates and run the CI process. It has a [renovate.json](./renovate.json) configuration file that is read.
+
+If you desire to continue using Renovate you will need to follow these steps to enable it:
+
+1. Go to Renovate's [homepage](https://renovatebot.com/) and authorize access with your GitHub account.
+1. Follow the instructions to connect your repository to Renovate.
+
+If you do not wish to use Renovate, you can safely delete this file
 
 ## Git Hooks
 
