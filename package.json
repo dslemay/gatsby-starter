@@ -65,7 +65,7 @@
     "babel-jest": "^24.4.0",
     "babel-loader": "^8.0.5",
     "babel-preset-gatsby": "^0.2.12",
-    "cypress": "^3.1.5",
+    "cypress": "^3.4.1",
     "eslint": "^6.3.0",
     "eslint-config-dslemay": "^3.0.0",
     "eslint-plugin-cypress": "^2.2.1",
