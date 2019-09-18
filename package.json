@@ -69,7 +69,7 @@
     "eslint": "^6.4.0",
     "eslint-config-dslemay": "^3.0.0",
     "eslint-plugin-cypress": "^2.6.1",
-    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-prettier": "^3.1.1",
     "husky": "^3.0.5",
     "identity-obj-proxy": "^3.0.0",
     "is-ci-cli": "^1.1.1",
