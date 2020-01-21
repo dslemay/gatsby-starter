@@ -77,6 +77,6 @@
     "jest-watch-typeahead": "^0.4.2",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1",
-    "start-server-and-test": "^1.10.6"
+    "start-server-and-test": "^1.10.7"
   }
 }
