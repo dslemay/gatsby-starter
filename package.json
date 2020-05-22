@@ -75,7 +75,7 @@
     "is-ci-cli": "^2.0.0",
     "jest": "^25.5.4",
     "jest-watch-typeahead": "^0.5.0",
-    "lint-staged": "^10.2.5",
+    "lint-staged": "^10.2.6",
     "prettier": "^1.19.1",
     "start-server-and-test": "^1.11.0"
   }
