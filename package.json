@@ -15,8 +15,8 @@
     "develop": "gatsby develop",
     "format": "prettier src/**/*.{js,jsx,md}",
     "prettier": "is-ci prettier:check prettier:format",
-    "prettier:check": "prettier --check src/**/*.{js,jsx,md}",
-    "prettier:format": "prettier --write src/**/*.{js,jsx,md}",
+    "prettier:check": "prettier --check --ignore-path .gitignore .",
+    "prettier:format": "prettier --write --ignore-path .gitignore .",
     "lint": "eslint src cypress",
     "lint-staged": "lint-staged",
     "start": "npm run develop",
@@ -76,7 +76,7 @@
     "jest": "^26.0.1",
     "jest-watch-typeahead": "^0.6.0",
     "lint-staged": "^10.2.8",
-    "prettier": "^1.19.1",
+    "prettier": "^2.0.5",
     "start-server-and-test": "^1.11.0"
   }
 }

@@ -1,9 +1,10 @@
+/* eslint-disable camelcase */
 module.exports = {
   __experimentalThemes: [
     {
       resolve: 'gatsby-theme-dslemay-core',
-      options: {}
-    }
+      options: {},
+    },
   ],
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -28,4 +29,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // 'gatsby-plugin-offline',
   ],
-}
+};

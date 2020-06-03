@@ -3,11 +3,11 @@
   font-size: 1rem;
   font-weight: 800;
   text-transform: uppercase;
-  background-color: #008C72;
+  background-color: #008c72;
   appearance: none;
 }
 
 .button__base:disabled {
-  background-color: #CCC;
+  background-color: #ccc;
   color: #1d1d1d;
 }
