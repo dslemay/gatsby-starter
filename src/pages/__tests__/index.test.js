@@ -1,13 +1,13 @@
-import React from 'react';
-import { render } from '@testing-library/react';
-import { StaticQuery } from 'gatsby';
+import React from 'react'
+import { render } from '@testing-library/react'
+import { StaticQuery } from 'gatsby'
 
-import mockPageQueries from '../../page-query-mocks';
+import mockPageQueries from '../../page-query-mocks'
 
-import IndexPage from '../index';
+import IndexPage from '../index'
 
 beforeEach(() => {
-  mockPageQueries();
+  mockPageQueries()
 
   StaticQuery.mockImplementationOnce(({ render: renderData }) =>
     renderData({
@@ -22,18 +22,18 @@ beforeEach(() => {
         },
       },
     }),
-  );
-});
+  )
+})
 
 describe('<IndexPafge />', () => {
   it('renders correctly', () => {
-    const { getByText } = render(<IndexPage />);
+    const { getByText } = render(<IndexPage />)
 
-    const header = getByText(/hi people/i);
-    expect(header.tagName).toBe('H1');
+    const header = getByText(/hi people/i)
+    expect(header.tagName).toBe('H1')
 
-    const link = getByText(/go to page 2/i);
-    expect(link.tagName).toBe('A');
-    expect(link).toHaveAttribute('href', '/page-2/');
-  });
-});
+    const link = getByText(/go to page 2/i)
+    expect(link.tagName).toBe('A')
+    expect(link).toHaveAttribute('href', '/page-2/')
+  })
+})

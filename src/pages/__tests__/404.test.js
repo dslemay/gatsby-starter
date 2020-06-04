@@ -1,17 +1,17 @@
-import React from 'react';
-import { render } from '@testing-library/react';
+import React from 'react'
+import { render } from '@testing-library/react'
 
-import mockPageQueries from '../../page-query-mocks';
+import mockPageQueries from '../../page-query-mocks'
 
-import NotFoundPage from '../404';
+import NotFoundPage from '../404'
 
-beforeEach(mockPageQueries);
+beforeEach(mockPageQueries)
 
 describe('<NotFoundPage />', () => {
   it('renders correctly', () => {
-    const { getByText } = render(<NotFoundPage />);
+    const { getByText } = render(<NotFoundPage />)
 
-    const header = getByText(/not found/i);
-    expect(header.tagName).toBe('H1');
-  });
-});
+    const header = getByText(/not found/i)
+    expect(header.tagName).toBe('H1')
+  })
+})
