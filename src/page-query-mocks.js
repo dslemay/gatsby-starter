@@ -1,4 +1,4 @@
-import { StaticQuery, useStaticQuery } from 'gatsby';
+import { StaticQuery, useStaticQuery } from 'gatsby'
 
 const mockSiteData = {
   site: {
@@ -6,7 +6,7 @@ const mockSiteData = {
       title: 'Sample page',
     },
   },
-};
+}
 
 const mockSeo = {
   site: {
@@ -16,13 +16,13 @@ const mockSeo = {
       author: 'Dr Seuess',
     },
   },
-};
+}
 
 const mockPageQueries = () => {
   StaticQuery.mockImplementationOnce(({ render: renderData }) =>
     renderData(mockSiteData),
-  );
-  useStaticQuery.mockImplementationOnce(() => mockSeo);
-};
+  )
+  useStaticQuery.mockImplementationOnce(() => mockSeo)
+}
 
-export default mockPageQueries;
+export default mockPageQueries

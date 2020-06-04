@@ -15432,6 +15432,11 @@ prepend-http@^2.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
+prettier-config-dslemay@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/prettier-config-dslemay/-/prettier-config-dslemay-2.0.0.tgz#f565164e96b8d58c4671fe0fdcfa5347b3783d44"
+  integrity sha512-ebWN+lkH+1v9faAjgz/YTdK8vzcQrgHMzcfTHcx973ghMRNlzSskBdQNIKf3oAdQbKHayiWLld7yMaHIikvsIA==
+
 prettier-linter-helpers@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/prettier-linter-helpers/-/prettier-linter-helpers-1.0.0.tgz#d23d41fe1375646de2d0104d3454a3008802cf7b"

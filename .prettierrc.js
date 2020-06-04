@@ -1,4 +1,3 @@
 module.exports = {
-  trailingComma: 'all',
-  singleQuote: true,
-};
+  ...require('prettier-config-dslemay'),
+}
