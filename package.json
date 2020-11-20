@@ -81,6 +81,6 @@
     "lint-staged": "^10.5.1",
     "prettier": "^2.2.0",
     "prettier-config-dslemay": "^2.0.0",
-    "start-server-and-test": "^1.11.5"
+    "start-server-and-test": "^1.11.6"
   }
 }
